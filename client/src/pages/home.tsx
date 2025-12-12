@@ -198,11 +198,10 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       {/* Sticky Header */}
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled
-            ? "bg-navy shadow-lg"
-            : "bg-navy/95"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
+          ? "bg-navy shadow-lg"
+          : "bg-navy/95"
+          }`}
       >
         {/* Top Bar with Phone */}
         <div className="bg-primary text-primary-foreground py-1.5">
@@ -365,7 +364,7 @@ export default function Home() {
               className="text-lg sm:text-xl text-white/90 mb-8 leading-relaxed"
               data-testid="text-hero-subtext"
             >
-              From full-service repairs to quality used car sales, Jay Auto Repair keeps you on the road. 
+              From full-service repairs to quality used car sales, Jay Auto Repair keeps you on the road.
               Our certified mechanics deliver honest service you can count on.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -421,13 +420,13 @@ export default function Home() {
                 Serving Our Community Since 2009
               </h2>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                Jay Auto Repair was founded with a simple mission: provide honest, reliable auto service 
-                at fair prices. What started as a small two-bay garage has grown into a full-service 
+                Jay Auto Repair was founded with a simple mission: provide honest, reliable auto service
+                at fair prices. What started as a small two-bay garage has grown into a full-service
                 auto repair shop and quality used car dealership that our community trusts.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Our team of ASE-certified mechanics brings decades of combined experience to every vehicle 
-                that enters our shop. We believe in transparent communication, upfront pricing, and 
+                Our team of ASE-certified mechanics brings decades of combined experience to every vehicle
+                that enters our shop. We believe in transparent communication, upfront pricing, and
                 standing behind our work with a comprehensive warranty on all repairs.
               </p>
 
@@ -478,7 +477,7 @@ export default function Home() {
               Complete Auto Repair Services
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              From routine maintenance to complex repairs, our expert technicians handle it all 
+              From routine maintenance to complex repairs, our expert technicians handle it all
               with precision and care.
             </p>
           </div>
@@ -541,7 +540,7 @@ export default function Home() {
               Quality Used Cars for Sale
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Every vehicle in our inventory undergoes a rigorous inspection by our certified mechanics. 
+              Every vehicle in our inventory undergoes a rigorous inspection by our certified mechanics.
               Drive away with confidence knowing your car is road-ready.
             </p>
           </div>
@@ -757,11 +756,10 @@ export default function Home() {
                       {[...Array(5)].map((_, i) => (
                         <Star
                           key={i}
-                          className={`w-5 h-5 ${
-                            i < testimonial.rating
-                              ? "text-yellow-400 fill-yellow-400"
-                              : "text-muted"
-                          }`}
+                          className={`w-5 h-5 ${i < testimonial.rating
+                            ? "text-yellow-400 fill-yellow-400"
+                            : "text-muted"
+                            }`}
                         />
                       ))}
                     </div>
@@ -902,9 +900,9 @@ export default function Home() {
                         </FormItem>
                       )}
                     />
-                    <Button 
-                      type="submit" 
-                      className="w-full font-semibold" 
+                    <Button
+                      type="submit"
+                      className="w-full font-semibold"
                       disabled={contactMutation.isPending}
                       data-testid="button-submit-contact"
                     >
@@ -1017,7 +1015,7 @@ export default function Home() {
                 <span className="text-lg font-bold">Jay Auto Repair</span>
               </div>
               <p className="text-white/70 text-sm mb-4 leading-relaxed">
-                Your trusted partner for auto repairs and quality used cars. 
+                Your trusted partner for auto repairs and quality used cars.
                 Serving the community with honesty and expertise since 2009.
               </p>
               <div className="flex gap-3">
