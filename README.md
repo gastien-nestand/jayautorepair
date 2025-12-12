@@ -103,34 +103,43 @@ npm run build
 
 This will create optimized production builds in the `dist` folder.
 
-### Deploy to Vercel
+### Deploy to Render
 
-1. **Install Vercel CLI** (if not already installed)
-   ```bash
-   npm install -g vercel
+1. **Create Render Account**
+   - Go to https://render.com
+   - Sign up with your GitHub account
+
+2. **Create New Web Service**
+   - Click "New +" → "Web Service"
+   - Connect your GitHub repository
+   - Select `gastien-nestand/jayautorepair`
+
+3. **Configure Service**
+   - **Build Command:** `npm install && npm run build`
+   - **Start Command:** `npm run start`
+   - **Plan:** Free
+
+4. **Add Environment Variables**
+   ```
+   NODE_ENV=production
+   PORT=10000
+   DATABASE_URL=your_postgresql_connection_string
+   SESSION_SECRET=your_random_secret_key
    ```
 
-2. **Login to Vercel**
-   ```bash
-   vercel login
-   ```
+5. **Deploy**
+   - Click "Create Web Service"
+   - Wait 3-5 minutes for deployment
+   - Your site will be live at `https://jay-auto-repair.onrender.com`
 
-3. **Deploy**
-   ```bash
-   vercel
-   ```
+### Environment Variables on Render
 
-   For production deployment:
-   ```bash
-   vercel --prod
-   ```
-
-### Environment Variables on Vercel
-
-Make sure to set the following environment variables in your Vercel project settings:
+Make sure to set the following environment variables in your Render service settings:
 
 - `NODE_ENV` = `production`
+- `PORT` = `10000`
 - `DATABASE_URL` = Your PostgreSQL connection string
+- `SESSION_SECRET` = Random secret key for sessions
 
 ## 🔌 API Endpoints
 
