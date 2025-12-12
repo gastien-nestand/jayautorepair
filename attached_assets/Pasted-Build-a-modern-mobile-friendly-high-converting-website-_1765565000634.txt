@@ -1,0 +1,128 @@
+Build a modern, mobile-friendly, high-converting website for an auto repair shop named “Jay Auto Repair.” The business also sells used cars. Follow the instructions and structure below:
+
+🔶 Brand & Style
+
+Business name: Jay Auto Repair
+
+Tagline: “Reliable Repairs. Quality Cars.”
+
+Colors: Dark navy (#0a1a2f), metallic silver (#c4c4c4), bright red (#e63946), white (#ffffff)
+
+Style: Clean, trustworthy, mechanic-shop aesthetic with bold typography
+
+Tone: Professional, straightforward, customer-focused
+
+🔶 Website Structure
+
+1. Hero Section
+
+Big headline: “Your Trusted Auto Repair Experts”
+
+Sub-text: “From full-service repairs to quality used car sales, Jay Auto Repair keeps you on the road.”
+
+CTA buttons:
+
+Book a Repair
+
+View Cars for Sale
+
+Background: Auto shop or mechanic working on engine
+
+2. About Us
+
+Brief history of Jay Auto Repair
+
+Highlight trust, honesty, fast service, and expertise
+
+3. Auto Repair Services
+Create a grid of services such as:
+
+Engine diagnostics
+
+Oil changes
+
+Brake service
+
+Transmission repair
+
+AC repair
+
+Tire rotation & alignment
+
+Full vehicle inspections
+Each service should have an icon, short description, and optional “Book Now” button.
+
+4. Cars for Sale
+
+Section introducing the car sales part of the business
+
+Display vehicle cards: Image, Make/Model, Year, Price, Key features
+
+CTA: View All Available Cars
+
+5. Why Choose Us
+Bullet points such as:
+
+Certified and experienced mechanics
+
+Honest pricing
+
+Fast turnaround
+
+Reliable used cars
+
+Customer satisfaction guarantee
+
+6. Testimonials
+
+Realistic customer reviews with names and star ratings
+
+7. Contact & Location
+
+Address, phone number, email
+
+Google Maps embed
+
+Contact form for booking or inquiries
+
+8. Footer
+
+Business hours
+
+Social media icons
+
+Quick links
+
+🔶 Additional Features to Include
+
+Sticky header with phone number
+
+Online booking functionality (or button placeholder)
+
+Inventory gallery for cars
+
+SEO-optimized text for “auto repair,” “mechanic shop,” and “used cars”
+
+Fast-loading and fully responsive design
+
+🔶 Content to Generate
+
+The AI should write all text for:
+
+About section
+
+Service descriptions
+
+Testimonials
+
+Car listings (placeholder vehicles if needed)
+
+🔶 Goal
+
+Create a professional, trustworthy website that helps Jay Auto Repair:
+
+Convert visitors into repair bookings
+
+Showcase available cars for sale
+
+Build credibility and customer trust
